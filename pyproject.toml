@@ -1,0 +1,15 @@
+[project]
+name = "gym-x"
+version = "0.1.0"
+description = "Gerenciador de academia"
+authors = [{ name = "Diego Lopes" }]
+requires-python = ">=3.10"
+
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "motor"
+]
+
+[tool.uv]
+package = true
